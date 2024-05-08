@@ -1,17 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Process {
-    int pid;
-    int burstTime;
-    int arrivalTime;
 
-    public Process(int pid, int burstTime, int arrivalTime) {
-        this.pid = pid;
-        this.burstTime = burstTime;
-        this.arrivalTime = arrivalTime;
-    }
-}
 
 public class RoundRobinScheduler {
 
